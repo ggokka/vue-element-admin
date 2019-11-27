@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vue-cli-service serve",
     "start": "vue-cli-service serve",
+    "heroku-postinstall":"npm install && npm run build",
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",
